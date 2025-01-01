@@ -21,8 +21,6 @@ def insertion_sort(array, ascending=True):
             i -= 1 # Start comparing with the next element on the key's left.
         array[i + 1] = key # Place the key element in the correct sorted position.
 
-    return array # Return the array.
-
 """
 Implementation where the ascending boolean is not re-evaluated on every iteration:
 
@@ -43,6 +41,4 @@ def insertion_sort(array, ascending=True):
                 array[i + 1] = array[i]
                 i -= 1
             array[i + 1] = key
-    
-    return array
 """
