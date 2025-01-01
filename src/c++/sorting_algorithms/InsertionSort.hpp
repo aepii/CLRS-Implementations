@@ -3,6 +3,6 @@
 
 #include <vector>
 
-void insertionSort(std::vector<int>& array);
+void insertionSort(std::vector<int>& array, bool ascending = true);
 
 #endif

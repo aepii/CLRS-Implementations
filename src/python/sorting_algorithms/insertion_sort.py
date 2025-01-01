@@ -16,13 +16,14 @@ def insertion_sort(array, ascending=True):
         # If sorting in descending order:
         # Check elements to the left of the key element until 
         # the key element is greater than the compared element.
+        
         while i >= 0 and (array[i] > key if ascending else array[i] <= key): 
             array[i + 1] = array[i] # Element that is being compared is shifted to the right.
             i -= 1 # Start comparing with the next element on the key's left.
         array[i + 1] = key # Place the key element in the correct sorted position.
 
 """
-Implementation where the ascending boolean is not re-evaluated on every iteration:
+Implementation where the boolean is not re-evaluated on every iteration:
 
 def insertion_sort(array, ascending=True):
     if ascending:
