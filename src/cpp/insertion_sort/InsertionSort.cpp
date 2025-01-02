@@ -7,7 +7,7 @@
 In-place sorting algorithm which compares a key element with elements
 to its left and shifting larger elements to the right until the key is in the correct place.
 */
-void insertionSort(std::vector<int>& array, bool ascending = true){
+void insertionSort(std::vector<int>& array, bool ascending){
   // Build sorted array one element at a time. 
   // Assume the first element is already "sorted".
   for(size_t j = 1; j < array.size(); ++j){
