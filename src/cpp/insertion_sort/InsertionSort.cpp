@@ -10,7 +10,7 @@ to its left and shifting larger elements to the right until the key is in the co
 void insertionSort(std::vector<int>& array, bool ascending){
   // Build sorted array one element at a time. 
   // Assume the first element is already "sorted".
-  for(size_t j = 1; j < array.size(); ++j){
+  for(int j = 1; j < array.size(); ++j){
     int key = array[j]; // Key element to be inserted into the sorted array.
     int i = j - 1; // Index to the left of the key element.
 
