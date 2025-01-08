@@ -1,7 +1,7 @@
 from static_stack import *
 
 def main():
-    my_stack = StaticStack(capacity=8)
+    my_stack = StaticStack(capacity=4)
     print(my_stack)
     my_stack.push(10)
     print(my_stack)
@@ -10,6 +10,14 @@ def main():
     my_stack.push(0)
     print(my_stack)
     my_stack.push(100)
+    print(my_stack)
+    my_stack.pop()
+    print(my_stack)
+    my_stack.pop()
+    print(my_stack)
+    my_stack.pop()
+    print(my_stack)
+    my_stack.pop()
     print(my_stack)
 
 
