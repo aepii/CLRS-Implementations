@@ -4,7 +4,7 @@
 #include <vector>
 #include <limits>
 
-void mergeSort(std::vector<int>& array, int p, int r){
+void mergeSort(std::vector<int>& array, int p, int r) {
   if (p < r){
     int q = (p + r) / 2;
     mergeSort(array, p, q);
@@ -13,7 +13,7 @@ void mergeSort(std::vector<int>& array, int p, int r){
   }
 }
 
-void merge(std::vector<int>& array, int p, int q, int r){
+void merge(std::vector<int>& array, int p, int q, int r) {
   int n1 = q - p + 1;
   int n2 = r - q;
 
@@ -28,11 +28,11 @@ void merge(std::vector<int>& array, int p, int q, int r){
 
   int i = 0, j = 0;
 
-  for(int k = p; k <= r; ++k){
+  for(int k = p; k <= r; ++k) {
     if (L[i] <= R[j]){
       array[k] = L[i];
       ++i;
-    }else{
+    } else {
       array[k] = R[j];
       ++j;
     }

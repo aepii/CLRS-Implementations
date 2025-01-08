@@ -3,10 +3,10 @@
 #include <iostream>
 #include <vector>
 
-int main(){
+int main() {
   std::vector<int> myArray = {5, 2, 4, 6, 1, 3};
   std::cout << "Before Insertion Sort:" << std::endl;
-  for(int element: myArray){
+  for(int element: myArray) {
     std::cout << element << " "; 
   }
   std::cout << std::endl;
@@ -21,7 +21,7 @@ int main(){
 
   std::vector<int> myArray2 = {5, 2, 4, 6, 1, 3};
   std::cout << "Before Insertion Sort:" << std::endl;
-  for(int element: myArray2){
+  for(int element: myArray2) {
     std::cout << element << " "; 
   }
   std::cout << std::endl;

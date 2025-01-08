@@ -1,0 +1,4 @@
+#ifndef STATIC_STACK_HPP
+#define STATIC_STACK_HPP
+
+#endif STATIC_STACK_HPP
